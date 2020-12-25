@@ -1,0 +1,54 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  margin-bottom: 5px;
+  padding: 10px;
+}
+
+nav * {
+  text-decoration: none;
+}
+
+nav h4 {
+  margin-left: 20px;
+  font-family: "Big Shoulders Stencil Display", cursive;
+  font-size: xxx-large;
+  color: white;
+}
+
+.pages {
+  height: 100%;
+}
+
+ul {
+  display: flex;
+  height: 100%;
+}
+
+li .links {
+  background-color: black;
+  font-size: x-large;
+  font-weight: bold;
+  letter-spacing: 3px;
+  display: inline;
+  margin: 15px;
+  color: white;
+}
+
+li .links:hover {
+  color: rgb(110, 99, 99);
+  border: 0.5px solid #ffffff;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  transition: border 0.5s, color 0.5s;
+}
+
+.underlined {
+  border: 0.5px solid #ffffff;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}

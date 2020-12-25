@@ -1,0 +1,17 @@
+.content-page {
+  margin: 10px;
+}
+
+.content-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  position: relative;
+}
+
+.content-filter {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 45px 5px 45px;
+}

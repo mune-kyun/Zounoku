@@ -1,0 +1,139 @@
+div .parent {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 20px;
+  padding: 10px;
+  flex: 1;
+  flex-grow: 0;
+  min-width: 30%;
+  height: 440px;
+  display: inline-block;
+}
+
+div .parent * {
+  margin: 3px;
+}
+
+div .top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 15%;
+  text-align: center;
+}
+
+div .mid,
+.below {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+div .below {
+  color: rgb(128, 120, 120);
+  font-weight: bold;
+}
+
+.genres {
+  border: 0.5px solid #d1cece;
+  border-left: none;
+  border-right: none;
+  width: 100%;
+}
+
+.genres ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  position: relative;
+}
+
+div .genres a {
+  color: rgb(93, 87, 87);
+  font-size: 11px;
+}
+
+div .genres a:hover {
+  color: dodgerblue;
+  text-decoration: none;
+}
+
+div .horizontal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+div img {
+  display: block;
+  max-width: 50%;
+}
+
+a {
+  text-decoration: none;
+  word-wrap: none;
+}
+
+p {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#status p {
+  color: grey;
+}
+
+#title {
+  color: darkblue;
+  font-weight: bold;
+  font-size: 17px;
+  display: flex;
+  justify-content: center;
+}
+
+#title:hover {
+  color: rgb(4, 89, 175);
+  font-weight: bold;
+}
+
+#rating {
+  color: rgb(199, 199, 25);
+  font-weight: bold;
+}
+
+#subtype {
+  text-transform: capitalize;
+}
+
+#status {
+  border: 0.5px solid #d1cece;
+  border-left: none;
+  border-right: none;
+  text-transform: capitalize;
+}
+
+#studio,
+#type,
+#episode {
+  color: darkblue;
+  font-size: 12px;
+}
+
+#synopsis {
+  height: 240px;
+  overflow: scroll;
+  overflow-y: auto;
+  overflow-x: hidden;
+  font-family: "Raleway", sans-serif;
+  text-align: left;
+}
+
+#type {
+  text-transform: capitalize;
+}
