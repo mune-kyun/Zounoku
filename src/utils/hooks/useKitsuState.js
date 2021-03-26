@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 
 const Base_API = "https://kitsu.io/api/edge";
-// const sort = "?sort=-endDate,-popularityRank";
+// const sort = "?sort=-endDate,-popularityRank&";
 const sort = "?";
-const default_URL = sort + "&page[limit]=12&page[offset]=";
+const default_URL = sort + "page[limit]=12&page[offset]=";
 const search_URL = "?filter[text]=";
 
 export default function useKitsuState(type, searchValue, page) {
